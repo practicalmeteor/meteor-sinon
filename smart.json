@@ -1,0 +1,9 @@
+{
+  "name": "sinon",
+  "description": "Standalone test spies, stubs and mocks for JavaScript. No dependencies, works with any unit testing framework",
+  "homepage": "ihttp://sinonjs.org/",
+  "author": "LaVaina Team <dev@lavaina.com>",
+  "version": "0.1.0",
+  "git": "https://github.com/lavaina/meteor-sinon.git",
+  "packages": {}
+}
