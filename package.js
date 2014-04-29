@@ -4,7 +4,7 @@ Npm.depends({
 });
 
 Package.describe({
-    summary: "Standalone test spies, stubs and mocks for JavaScript."
+    summary: "Standalone test spies, stubs and mocks for JavaScript. This is Sinon.JS v1.7.3."
 });
 
 Package.on_use(function (api, where) {
