@@ -2,8 +2,8 @@
   "name": "sinon",
   "description": "Standalone test spies, stubs and mocks for JavaScript. No dependencies, works with any unit testing framework. This is Sinon.JS v1.7.3.",
   "homepage": "https://github.com/lavaina/meteor-sinon/",
-  "author": "LaVaina Inc. (https://github.com/lavaina/)",
-  "version": "0.1.2",
+  "author": "LaVaina Inc. (https://github.com/lavaina)",
+  "version": "0.1.4",
   "git": "https://github.com/lavaina/meteor-sinon.git",
   "packages": {}
 }
