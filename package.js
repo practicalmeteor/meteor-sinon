@@ -4,13 +4,17 @@ Npm.depends({
 });
 
 Package.describe({
-    summary: "Standalone test spies, stubs and mocks for JavaScript. This is Sinon.JS v1.7.3."
+    summary: "Standalone test spies, stubs and mocks for JavaScript. This is Sinon.JS v1.7.3.",
+    name: "spacejamio:sinon",
+    version: "0.1.6",
+    git: "https://github.com/spacejamio/meteor-sinon.git"
 });
 
-Package.on_use(function (api, where) {
-    api.add_files(['server.js'], ['server']);
+Package.onUse(function (api, where) {
+    api.addFiles(['server.js'], ['server']);
     api.add_files(['sinon-1.7.3.js'], ['client']);
     api.add_files(['sinon-chai.js'], ['client']);
+    api.imply('spacejamio:chai@0.1.6');
     api.export(['sinon','sinonChai'],['client','server']);
 });
 
