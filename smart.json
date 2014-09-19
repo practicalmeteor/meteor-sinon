@@ -1,9 +1,0 @@
-{
-  "name": "sinon",
-  "description": "Standalone test spies, stubs and mocks for JavaScript. No dependencies, works with any unit testing framework. This is Sinon.JS v1.7.3.",
-  "homepage": "https://github.com/spacejamio/meteor-sinon/",
-  "author": "SpaceJam.io (LaVaina Inc.)",
-  "version": "0.1.5",
-  "git": "https://github.com/spacejamio/meteor-sinon.git",
-  "packages": {}
-}
