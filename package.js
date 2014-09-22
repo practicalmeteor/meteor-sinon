@@ -11,6 +11,8 @@ Package.describe({
 });
 
 Package.onUse(function (api, where) {
+    api.versionsFrom('0.9.0');
+
     api.addFiles(['server.js'], ['server']);
     api.add_files(['sinon-1.7.3.js'], ['client']);
     api.add_files(['sinon-chai.js'], ['client']);
