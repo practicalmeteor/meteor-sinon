@@ -13,10 +13,11 @@ Package.describe({
 Package.onUse(function (api, where) {
     api.versionsFrom('0.9.0');
 
+    api.use('spacejamio:chai@1.0.0', {weak: true});
+
     api.addFiles(['server.js'], ['server']);
     api.add_files(['sinon-1.7.3.js'], ['client']);
     api.add_files(['sinon-chai.js'], ['client']);
-    api.use('spacejamio:chai', {weak: true});
     api.export(['sinon','sinonChai'],['client','server']);
 });
 
