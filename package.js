@@ -13,13 +13,20 @@ Package.describe({
 Package.onUse(function (api, where) {
     api.versionsFrom('0.9.0');
 
-    api.use('spacejamio:chai@1.0.0', {weak: true});
+    api.use('coffeescript');
+    api.use('spacejamio:chai@1.0.0');
 
-    api.addFiles(['server.js'], ['server']);
-    api.add_files(['sinon-1.7.3.js'], ['client']);
-    api.add_files(['sinon-chai.js'], ['client']);
-    api.export(['sinon','sinonChai'],['client','server']);
+    api.addFiles('Helpers.coffee');
+    api.addFiles(['server.js'], 'server');
+    api.add_files(['sinon-1.7.3.js'], 'client');
+    api.add_files(['sinon-chai.js'], 'client');
+
+    api.export(['sinon','sinonChai']);
+    api.export(['spies','stubs']);
 });
 
 Package.onTest(function(api) {
+  api.use(['spacejamio:chai', 'spacejamio:sinon', 'coffeescript', 'tinytest']);
+
+  api.addFiles('tests/HelpersTest.coffee');
 });

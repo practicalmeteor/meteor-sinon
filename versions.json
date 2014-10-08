@@ -1,8 +1,16 @@
 {
   "dependencies": [
     [
+      "coffeescript",
+      "1.0.3"
+    ],
+    [
       "meteor",
       "1.1.1"
+    ],
+    [
+      "spacejamio:chai",
+      "1.0.0"
     ],
     [
       "underscore",
