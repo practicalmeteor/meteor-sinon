@@ -17,7 +17,7 @@ spies.create(spyName, obj, method)
 // You can just use spies.spyName instead of this method.
 spies.get(spyName)
 
-// Don't use spies.spyName.restore, use this method if you want to restore a specific spy, since otherwise, the factory will not have track of spies that where restored. 
+// You can just use spies.spyName.restore instead of this method.
 spies.restore(spyName)
 
 // Restore all spies created with spies.create
@@ -46,7 +46,7 @@ stubs.create(stubName, obj, method)
 // You can just use stubs.spyName instead of this method.
 stubs.get(stubName)
 
-// Don't use stubs.stubName.restore, use this method if you want to restore a specific stub, since otherwise, the factory will not have track of spies that where restored. 
+// You can just use stubs.stubName.restore instead of this method.
 stubs.restore(stubName)
 
 // Restore all stubs created with stubs.create
