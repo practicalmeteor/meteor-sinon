@@ -78,3 +78,15 @@ Tinytest.add "stubs - create - it should throw an error if the stub is one of th
   createGetStub = ->
     stubs.create("get", a, 'log')
   test.throws createGetStub, "can't be named"
+
+
+Tinytest.add "spies - restore - it should not throw an error if the spy was restored before using spies.spyName.restore", (test)->
+  spies.create("log", a, 'log')
+  spies.log.restore
+  spies.restore('log')
+
+
+Tinytest.add "stubs - restore - it should not throw an error if the stub was restored before using stubs.stubName.restore", (test)->
+  stubs.create("log", a, 'log')
+  stubs.log.restore
+  stubs.restore('log')
