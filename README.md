@@ -94,5 +94,7 @@ Sinon-Chai: 2.6.0
 ## License
 
 This Meteor package is MIT.
+
 The Sinon.JS [license](https://github.com/cjohansen/Sinon.JS/blob/master/LICENSE) is BSD.
+
 The Sinon-Chai [license](https://github.com/domenic/sinon-chai/blob/master/LICENSE.txt) is quite interesting :)
