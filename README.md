@@ -1,6 +1,7 @@
+[![Build Status](https://travis-ci.org/practicalmeteor/meteor-sinon.svg?branch=master)](https://travis-ci.org/practicalmeteor/meteor-sinon)
 ## Overview
 
-Standalone test spies, stubs and mocks for JavaScript, packaged for meteor. Includes [Sinon-Chai](http://chaijs.com/plugins/sinon-chai), that adds a set of custom sinon assertions to [spacejamio:chai](https://atmospherejs.com/spacejamio/chai).
+Standalone test spies, stubs and mocks for JavaScript, packaged for meteor. Includes [Sinon-Chai](http://chaijs.com/plugins/sinon-chai), that adds a set of custom sinon assertions to [practicalmeteor:chai](https://atmospherejs.com/practicalmeteor/chai).
 
 ## spies and stubs factories with restoreAll support
 
@@ -83,7 +84,7 @@ Sinon-Chai: 2.6.0
 
 ## Changelog
 
-[CHANGELOG](https://github.com/spacejamio/meteor-sinon/blob/master/CHANGELOG.md)
+[CHANGELOG](https://github.com/practicalmeteor/meteor-sinon/blob/master/CHANGELOG.md)
 
 ## Documentation
 

@@ -1,4 +1,4 @@
 // If the chai package is installed use it
-if(Package['spacejamio:chai']){
+if(Package['practicalmeteor:chai']){
   chai.use(sinonChai);
 }
