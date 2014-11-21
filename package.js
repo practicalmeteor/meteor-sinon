@@ -1,6 +1,6 @@
 Package.describe({
-    summary: "Standalone test spies, stubs and mocks for JavaScript.",
-    name: "practicalmeteor:sinon",
+    summary: "This package has been renamed to practicalmeteor:sinon. Please use the new name instead.",
+    name: "spacejamio:sinon",
     version: "1.10.3_2",
     git: "https://github.com/practicalmeteor/meteor-sinon.git"
 });
