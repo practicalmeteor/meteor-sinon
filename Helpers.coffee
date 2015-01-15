@@ -33,7 +33,6 @@ class SinonSpies extends SinonObjects
       expect(obj).to.be.a("function")
       return @[name] = sinon.spy(obj)
 
-    expect(obj).to.be.an "object"
     expect(method).to.be.a "string"
     if @[name]
       @restore name
@@ -49,7 +48,6 @@ class SinonStubs extends SinonObjects
     if not obj and not method
       return @[name] = sinon.stub()
 
-    expect(obj).to.be.an("object")
     expect(method).to.be.a("string")
     if @[name]
       @restore name
