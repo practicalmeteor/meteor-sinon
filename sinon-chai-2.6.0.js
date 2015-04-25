@@ -1,4 +1,4 @@
-sinonChai = function(chai, utils) {
+sinonChai = this.sinonChai = function(chai, utils) {
     "use strict";
 
     var slice = Array.prototype.slice;

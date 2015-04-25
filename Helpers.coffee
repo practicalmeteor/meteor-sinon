@@ -58,9 +58,9 @@ class SinonStubs extends SinonObjects
 # the value of this and exception thrown (if any) for all its calls.
 # A test spy can be an anonymous function or it can wrap an existing function or object method.
 # To learn more http://sinonjs.org/docs/#spies-api
-spies = new SinonSpies()
+spies = this.spies = new SinonSpies()
 
 
 # Test stubs are functions (spies) with pre-programmed behavior.
 # This is a wrapper for sinonjs stubs to learn more http://sinonjs.org/docs/#stubs-api
-stubs = new SinonStubs()
+stubs = this.stubs = new SinonStubs()
