@@ -1,7 +1,7 @@
 Package.describe({
     summary: "Standalone test spies, stubs and mocks for JavaScript.",
     name: "practicalmeteor:sinon",
-    version: "1.14.1",
+    version: "1.14.1_1",
     git: "https://github.com/practicalmeteor/meteor-sinon.git",
     debugOnly: true
 });
@@ -22,7 +22,7 @@ Package.onUse(function (api, where) {
 });
 
 Package.onTest(function(api) {
-  api.use(['practicalmeteor:chai', 'practicalmeteor:sinon@1.10.3_2', 'coffeescript', 'tinytest']);
+  api.use(['practicalmeteor:chai@2.1.0_1', 'practicalmeteor:sinon@1.14.1_1', 'coffeescript', 'tinytest']);
 
   api.addFiles('tests/HelpersTest.coffee');
 });
