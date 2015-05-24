@@ -33,7 +33,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-sinon = (function () {
+sinon = this.sinon = (function () {
   var samsam, formatio;
   (function () {
                 function define(mod, deps, fn) {
