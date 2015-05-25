@@ -10,7 +10,7 @@ Package.onUse(function (api, where) {
     api.versionsFrom('0.9.3');
 
     api.use('coffeescript');
-    api.use('practicalmeteor:chai');
+    api.use('practicalmeteor:chai@2.1.0_1');
 
     api.addFiles('sinon-1.14.1.js');
     api.addFiles('sinon-chai-2.6.0.js');
