@@ -41,7 +41,7 @@ class SinonSpies extends SinonObjects
 
 
 class SinonStubs extends SinonObjects
-  create: (name, obj, method)->
+  create: (name, obj, method, func)->
     expect(name).to.be.a("string")
     if @forbiddenNames.indexOf(name) >= 0
       throw Error("A stub can't be named '#{name}'. Please choose another name.")
@@ -51,7 +51,7 @@ class SinonStubs extends SinonObjects
     expect(method).to.be.a("string")
     if @[name]
       @restore name
-    return @[name] = sinon.stub(obj, method)
+    return @[name] = sinon.stub(obj, method, func)
 
 
 # A test spy is a function that records arguments, return value,
