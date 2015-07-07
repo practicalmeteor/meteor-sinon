@@ -1,3 +1,11 @@
+## 1.14.1_2
+
+* Allow specifying a custom function in stubs.create. See [pr](https://github.com/practicalmeteor/meteor-sinon/pull/12).
+
+## 1.14.1_1
+
+* Upgrade to sinon 1.14.1
+
 ## 1.10.3_1
 
 * Add 'spies' and 'stubs' factories with 'restoreAll' support that can be called during tear down of tests or test suites.
