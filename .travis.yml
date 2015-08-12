@@ -1,4 +1,4 @@
-# This tells travis to run build on new container (docker) based infrastructure
+# This is how you tell travis to run the build on the new container (docker) based infrastructure
 sudo: false
 
 language: node_js
