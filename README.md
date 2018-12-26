@@ -1,4 +1,9 @@
 [![Build Status](https://travis-ci.org/practicalmeteor/meteor-sinon.svg?branch=master)](https://travis-ci.org/practicalmeteor/meteor-sinon)
+
+# This project is no longer maintained
+
+Due to leaving the meteor community, this project and all of it's related projects are no longer maintained by it's owners and contributors. See [meteor's official guide](https://guide.meteor.com/) or [meteor's package repository](https://atmospherejs.com/) for alternatives.
+
 ## Overview
 
 Standalone test spies, stubs and mocks for JavaScript, packaged for meteor. Includes [Sinon-Chai](http://chaijs.com/plugins/sinon-chai), that adds a set of custom sinon assertions to [practicalmeteor:chai](https://atmospherejs.com/practicalmeteor/chai).
